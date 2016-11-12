@@ -1,0 +1,293 @@
+body {
+  font-family: Arial, Verdana,  sans-serif;
+  font-size: 12px;
+  background-color: #F8F8FF;
+  padding: 5px; /* Поля */
+  margin-right: 0px;
+  margin-left: 213px; /* Отступ слева */ 
+  margin-top: 50px; /* Отступ слева */ 
+  margin-bottom: 0px; /* Отступ снизу */ 
+  text-align: left;
+  border-width: 1px 0px 0px 1px;
+  border-color: #99CCCC;
+  border-style: dashed;
+  border-radius: 10px 0px 0px 0px;
+  -webkit-border-radius: 10px 0px 0px 0px;
+  -moz-border-radius: 10px 0px 0px 0px;
+}
+
+.userpanel { /* административная панель */
+    position: fixed; /* Фиксированное положение */
+    left: 0; 
+    top: 50px; /* Положение */
+    background: #e6e6fa; /* Цвет фона */
+    width: 180px; /* Ширина слоя */
+    margin-left: 10px; /* Отступ слева */ 
+    padding: 5px; /* Поля */
+    overflow: auto;
+	max-height: 550px;
+    text-align: center;
+    font-size: 12px;
+    border-width: 1px;
+    border-color: #99CCCC;
+    border-style: dashed;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+   }
+
+.userpanel > a { /* меняем вид ссылок */
+    font-weight: normal; /* Нормальное начертание текста */
+    font-size: 90%; /* Размер шрифта */}
+
+.userpanel > A:link { 
+    color: #999999; /* Цвет непосещенных ссылок */
+   }
+.userpanel > A:visited { 
+    color: #999999; /* Цвет посещенных ссылок */
+   }
+.userpanel > A:hover { 
+    color: #6699cc; /* Цвет ссылок при наведении на них курсора мыши */
+    font-weight: bold;
+   }
+.userpanel > A:active { 
+    color: #999999; /* Цвет активных ссылок */
+   }
+
+.input_pass { /* поля для вdода пароля данных в левой панели */
+  border: 0px;
+  width: 160px;
+}
+
+.input_form { /* поля для вdода данных нка формах */
+  border: 1px solid #666666;
+  width: 600px;
+  wrap: soft;
+}
+
+.buttons { /* кнопка */
+  width: 160px;
+  margin-top: 5px;
+  outline: 1px solid #666; 
+}
+
+.buttons200 { /* кнопка пошире*/
+  width: 200px;
+  margin-top: 5px;
+  outline: 1px solid #666; 
+}
+
+.header { /* заголовок гостевухи */
+    position: fixed; /* Фиксированное положение */
+    left: 0; top: 0; /* Левый верхний угол */
+    padding: 0px; /* Поля вокруг текста */
+    padding-top: 5px;
+    background: #e6e6fa; /* Цвет фона */
+    color: #6699cc; /* Цвет текста */
+    font-variant: small-caps;
+    text-align: right;
+    font-size: 27px;
+    width: 100%; /* Ширина слоя */
+    height: 40px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #99CCCC;
+    border-style: dashed;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+   }
+.footer { /* подвал гостевой книги */
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    margin-left: 10px; /* Отступ слева */ 
+    padding: 5px; /* Поля вокруг текста */
+    background: #e6e6fa; /* Цвет фона */
+    color: #c0c0c0; /* Цвет текста */
+    width: 180px; /* Ширина слоя */
+    height: 45px;
+    text-align: center;
+	z-index: -1;
+    font-size: 9px;
+    border-width: 1px 1px 0px 1px;
+    border-color: #99CCCC;
+    border-style: dashed;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+   }
+
+table.post { /* стиль таблицы сообщения */  
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 12px;
+  border-right: 2px solid #99CCCC;
+  border-spacing: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+tr.posthead { /* стиль заголовка таблицы сообщения */  
+  background: #99CCCC;
+}
+
+tr.deleted_posthead { /* стиль заголовка таблицы удаленного сообщения */  
+  background: #FFCC99;
+}
+
+td.messagehead { /* стиль ячейки "ОТ" таблицы сообщения */  
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+td.id { /* стиль id-шника записи */  
+  text-align: right;
+  color: #666666;
+}
+
+td.message { /* стиль ячейки сообщения */  
+  /*font-weight: bold*/
+  padding-left: 10px;
+  font-size: 13px;
+  text-align: left;
+}
+
+
+
+table.comment { /* стиль таблицы комментария */    
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 12px;
+  border-bottom: 1px solid #C0C0C0;
+  border-spacing: 0px;
+  padding: 0px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+tr.commenthead { /* стиль заголовка таблицы комментария */  
+  background: #C0C0C0;
+}
+
+tr.deleted_commenthead { /* стиль заголовка таблицы удаленного комментария */  
+  background: #FFCCCC;
+}
+
+td.commenthead { /* стиль ячейки "ОТ" таблицы комментария */  
+  font-weight: bold;
+  font-size: 12px;
+  font-style: oblique;
+  text-align: left;
+}
+
+
+td.comment { /* стиль ячейки  комментария */  
+  font-size: 12px;
+  font-style: oblique;
+  padding-left: 10px;
+  text-align: left;
+}
+
+
+img { /* картинка по умолчанию имеет цвет фона */
+  border: 1px solid #F8F8FF;;
+} 
+
+img:hover { /* картинка при наведении как бы обводится */
+  border: 1px solid #99CCCC;  
+} 
+
+img.avatar { 
+  height: 60px;
+  width: 60px;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #666; 
+}
+
+img.welcome { 
+  height: 60px;
+  width: 60px;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #666; 
+}
+
+.icons { /* стиль строки с иконками */  
+  font-size: 9px;
+  font-style: oblique;
+  color: #666666;
+  text-align: right;
+}
+
+blockquote {
+  border-left: 15px solid #CCFFFF;
+  border-right: 5px solid #CCFFFF;
+  border-top: 1px solid #CCFFFF;
+  border-bottom: 1px solid #CCFFFF;
+  background: #d8eeee;
+  margin-left: 40px;
+  padding-left: 5px;
+}
+
+blockquote:before {
+  display: block;
+  content: "Цитата:";
+  margin-left: -15px;
+  padding-bottom: 3px;
+  font-size: 90%;   	
+  font-style: oblique;
+  background: #CCFFFF;
+}
+
+pre {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px;
+  border-left: 15px solid #fffaa9;
+  border-right: 5px solid #fffaa9;
+  background: #fcf9cf;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.register { /* форма регистрации */
+	background: #e6e6fa; /* Цвет фона */
+	padding: 10px; /* Поля */
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	font-size: 14px;
+	border-width: 1px;
+	border-color: #99CCCC;
+	border-style: dashed;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.input { /* поля для вdода пароля данных в левой панели */
+	border: 1px solid;
+	width: 160px;
+}
+
+.btnbbcode {
+  width: 50px;
+  background-color: #EFEFEF;
+  border: 1px solid #666666;
+  color: #000000;
+  font-size: 12px;
+}
+
+p.edited { /* стиль строки с иконками */  
+  font-size: 9px;
+  font-style: oblique;
+  color: #666666;
+  text-align: left;
+  margin-bottom: -10px;
+}
