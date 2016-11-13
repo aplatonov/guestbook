@@ -62,3 +62,8 @@
 127.0.0.1 - - [12/Nov/2016:22:18:30 +0400] "GET /uploads/580cc8576f03c.jpg HTTP/1.1" 200 27298 "http://test.com/admin.php" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:49.0) Gecko/20100101 Firefox/49.0"
 127.0.0.1 - - [12/Nov/2016:22:18:30 +0400] "GET /uploads/57fde5d063f35.jpg HTTP/1.1" 200 31670 "http://test.com/admin.php" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:49.0) Gecko/20100101 Firefox/49.0"
 127.0.0.1 - - [12/Nov/2016:22:18:46 +0400] "POST /admin.php HTTP/1.1" 200 3076 "http://test.com/admin.php" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:49.0) Gecko/20100101 Firefox/49.0"
+::1 - - [13/Nov/2016:15:28:12 +0400] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 (internal dummy connection)"
+::1 - - [13/Nov/2016:15:28:12 +0400] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 (internal dummy connection)"
+::1 - - [13/Nov/2016:15:28:12 +0400] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 (internal dummy connection)"
+::1 - - [13/Nov/2016:15:28:12 +0400] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 (internal dummy connection)"
+::1 - - [13/Nov/2016:15:28:12 +0400] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 (internal dummy connection)"
